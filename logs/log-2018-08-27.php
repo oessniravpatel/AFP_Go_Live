@@ -1,0 +1,8 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2018-08-27 11:59:01 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() at line no 1894 in C:\wamp64\www\AFP_NEW\api\system\libraries\Email.php
+ERROR - 2018-08-27 17:34:39 --> Login Error at line no 27 in C:\wamp64\www\AFP_NEW\api\application\models\Login_user_model.php
+ERROR - 2018-08-27 17:34:39 --> Invalid username or password at line no 47 in C:\wamp64\www\AFP_NEW\api\application\controllers\Login_user.php
+ERROR - 2018-08-27 17:41:10 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() at line no 1894 in C:\wamp64\www\AFP_NEW\api\system\libraries\Email.php
+ERROR - 2018-08-27 17:41:11 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 - Invalid query: SELECT EmailAddress FROM tbluser where UserId = 
+ERROR - 2018-08-27 17:53:40 --> Query error: Cannot add or update a child row: a foreign key constraint fails (`DevAFPTool`.`tblcandidateassessment`, CONSTRAINT `tblcandidateassessment_ibfk_1` FOREIGN KEY (`UserId`) REFERENCES `tbluser` (`UserId`) ON DELETE CASCADE ON UPDATE CASCADE) - Invalid query: INSERT INTO `tblcandidateassessment` (`UserId`, `AssessmentName`, `TeamSizeId`, `Description`, `CreatedBy`, `UpdatedBy`, `UpdatedOn`, `StartTime`) VALUES ('2', 'sfcescf', '9', 'dvdv', '2', '2', '18-08-27 17:53:39', '18-08-27 17:53:39')
